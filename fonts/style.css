@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.eot?srygvu');
+	src:url('icomoon.eot?srygvu#iefix') format('embedded-opentype'),
+		url('icomoon.ttf?srygvu') format('truetype'),
+		url('icomoon.woff?srygvu') format('woff'),
+		url('icomoon.svg?srygvu#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comment-discussion:before {
+	content: "\f04f";
+}
+.icon-home:before {
+	content: "\e90e";
+}
+.icon-home2:before {
+	content: "\e90f";
+}
+.icon-home3:before {
+	content: "\e910";
+}
+.icon-pacman2:before {
+	content: "\e911";
+}
+.icon-bubbles:before {
+	content: "\e912";
+}
+.icon-bubbles2:before {
+	content: "\e913";
+}
+.icon-users:before {
+	content: "\e914";
+}
+.icon-embed2:before {
+	content: "\e915";
+}
+.icon-facebook2:before {
+	content: "\e916";
+}
+.icon-youtube4:before {
+	content: "\e917";
+}
+.icon-html5:before {
+	content: "\e918";
+}
+.icon-css3:before {
+	content: "\e919";
+}
+.icon-camera4:before {
+	content: "\e91a";
+}
+.icon-image-inverted:before {
+	content: "\e91b";
+}
+.icon-users2:before {
+	content: "\e91c";
+}
+.icon-evernote:before {
+	content: "\e91d";
+}
+.icon-camera5:before {
+	content: "\e91e";
+}
+.icon-camera:before {
+	content: "\e906";
+}
+.icon-calendar:before {
+	content: "\e900";
+}
+.icon-camera2:before {
+	content: "\e901";
+}
+.icon-camera3:before {
+	content: "\e902";
+}
+.icon-film:before {
+	content: "\e903";
+}
+.icon-pictures:before {
+	content: "\e904";
+}
+.icon-pacman:before {
+	content: "\e905";
+}
+.icon-gamepad:before {
+	content: "\e907";
+}
+.icon-medal:before {
+	content: "\e908";
+}
+.icon-medal2:before {
+	content: "\e909";
+}
+.icon-transformers:before {
+	content: "\e90a";
+}
+.icon-batman:before {
+	content: "\e90b";
+}
+.icon-skeletor:before {
+	content: "\e90c";
+}
+.icon-comments:before {
+	content: "\e90d";
+}
+.icon-envelope:before {
+	content: "\1f52b";
+}
+

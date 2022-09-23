@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset ="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="_css/estilo.css">
+	<link rel="stylesheet" href="_css/fonts.css">
+	<link rel="stylesheet" href="fonts/style.css">
+	<link rel="stylesheet" href="_css/equipamentos.css">
+	<script language="javascript" src="_javascript/funcoes.js"> </script>
+</head>
+
+<body>
+	<div id="interface">
+	 <header id="cabecalho">
+		 <nav id="menu">
+			<ul>
+				<li onmouseover="mudaFoto('_imagens/gep.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')"><a href="index.html"><span class="primeiro"><i class="icon icon-home"></i></span>GEP</a></li>
+
+				<li onmouseover="mudaFoto('_imagens/menu-membros.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')"><a href="membros.html"><span class="segundo"><i class="icon icon-users"></i></span>Membros</a></li>
+
+				<li><a onmouseover="mudaFoto('_imagens/menu-multimidia.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')"href="multimidia.html"><span class="terceiro"><i class="icon icon-youtube4"></i></span>Multimidia</a>
+					<ul>
+						<li onmouseover="mudaFoto('_imagens/menu-foto.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')"><a href="fotos.html">Fotos &nbsp;&nbsp;<span class="ic"><i class="icon icon-camera5"></span></i></a></li>
+						<li onmouseover="mudaFoto('_imagens/menu-video.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')"><a href="videos.html">Vídeos &nbsp;<span class="ic"><i class="icon icon-film"></span></i></a></li>
+					</ul>
+				
+				</li>
+
+				<li><a onmouseover="mudaFoto('_imagens/menu-contato.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')" href="fale-conosco.html"><span class="quinto"><i class="icon icon-pacman2"></i></span>Fale conosco</a>
+					<ul>
+						<li onmouseover="mudaFoto('_imagens/menu-participar.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')"><a href="participar.html">Participar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="icon icon-gamepad"></i></span></a></li>
+						<li onmouseover="mudaFoto('_imagens/menu-fazer-contato.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')"><a href="fazer_contato.html">Fazer Contato&nbsp;<span><i class="icon icon-comment-discussion"></span></i></a></li>
+					</ul>
+				</li>
+
+				<li onmouseover="mudaFoto('_imagens/menu-equipamento.png')" onmouseout="mudaFoto('_imagens/menu-equipamento.png')"><a href="equipamentos.html"><span class="quarto"><i class="icon icon-transformers"></i></span>Equipamentos</a></li>
+				
+					
+		</nav>
+		<img id="icone"src="_imagens/menu-equipamento.png"/>
+	 	
+	</header>
+
+
+	<section id="corpofull">
+		<article id="noticia">
+			<header id="cabecalho-artigo">
+		<h3>GEP &nbsp; > &nbsp; Paintball &nbsp; > &nbsp; Equipamentos</h3>
+		<h2>por Bonieck Douglas</h2>
+		<h1>Lista de Equipamentos</h1> 
+		<h3 class="direita">Atualizado em 20/Novembro/2015</h3></br>
+
+	<p>Clique em qualquer área destacada da imagem "link" para ter mais informações. Qualquer equipamento vai te levar a um lugar cheio de novas informações sobre o equipamento escolhido.</p></br>
+
+
+		<section id="conteudo">
+			 <img id="foto-membros" src="_imagens/foto-equipamento(12).jpg" usemap="#meumapa"/>
+
+			 <map name="meumapa">
+			 	<area shape="rect" coords="40,6,400,199" href="lista-de-equipamentos.html#diferenca" target="janela"/>
+
+			 <area shape="rect" coords="450,6,751,230" href="lista-de-equipamentos.html#mascara" target="janela"/>
+			
+			<area shape="rect" coords="15,210,220,400" href="lista-de-equipamentos.html#cilindro" target="janela"/>
+
+			<area shape="rect"	coords="250,200,488,400" href="lista-de-equipamentos.html#marcadora" target="janela"/>
+
+			<area shape="rect" coords="527,263,736,455" href="lista-de-equipamentos.html#loader" target="janela"/>
+
+			<area shape="rect" coords="30,518,232,684" href="lista-de-equipamentos.html#bolinhas" target="janela"/>
+
+			<area shape="rect" coords="511,520,760,680" href="lista-de-equipamentos.html#pod" target="janela"/>
+
+
+			<area shape="rect" coords="300,495,469,692" href="lista-de-equipamentos.html#colete" target="janela"/>
+			 </map>
+
+		 <iframe src="lista-de-equipamentos.html" name="janela" id="frame-spec" scrolling="no" frameborder="0" ></iframe>
+		</section>
+
+		<section>
+		<ul id="album-fotos">
+	<li id="foto01"><span>Marcadora</span></li>
+	<li id="foto02"><span>Máscara</span></li>
+	<li id="foto03"><span>Cilindro</span></li>
+	<li id="foto04"><span>Loader</span></li>
+	<li id="foto05"><span>Colete</span></li>
+	<li id="foto06"><span>Luva</span></li>
+		</ul>
+		
+		</section>
+	</article>
+	</section>
+
+	<footer id="rodape">
+	<p><span id="rodape"><span class="copyright">&copy;</span> Copyright <b>GEP</b>  2015 - by Bonieck Douglas</span> </br>
+		<a href="http://facebook.com" target="blanck">Facebook</a> | <a href="http://twitter.com" target="blanck">Twitterr</a> </p>
+
+</footer>
+</div>
+</body>
+</html>
